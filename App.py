@@ -92,7 +92,7 @@ def course_recommender(course_list):
 
 
 # sql connector
-connection = pymysql.connect(host='localhost',user='root',password='jZ#9rhsw',db='cv')
+connection = pymysql.connect(host='localhost',user='root',password='your_password',db='cv')
 cursor = connection.cursor()
 
 
@@ -787,3 +787,4 @@ def run():
 
 # Calling the main (run()) function to make the whole process run
 run()
+
